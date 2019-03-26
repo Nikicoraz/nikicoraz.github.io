@@ -67,10 +67,10 @@
         <label for="username">Username</label>
         <input id="username" type="text" name="username" required>
         <label for="email">Email</label>
-        <input id="email" type="text" name="email" required>
+        <input id="email" type="text" name="email" required pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$">
         <br>
         <label for="Question">Domanda</label>
-        <textarea id="Question" name="Question" rows="3" cols="40" required minlenght="2"></textarea>
+        <textarea id="Question" name="Question" rows="3" cols="40" required ></textarea>
         <label for="days">In quanti giorni vorresti la risposta?</label>
         <input id="days" type="number" step="1" name="amount" min="2" max="10" required>
         <section class="Submittion">
