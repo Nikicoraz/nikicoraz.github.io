@@ -42,8 +42,10 @@ td {
 #poizz {
   border: 3px solid red;
   border-radius: 15px;
+  padding:10px 10px;
   width:315px;
-  text-align: center;
+  position: Absolute;
+  left:800px;
 
 }
 #pp {
@@ -51,4 +53,10 @@ visibility: hidden;
 }
 img {
 height: 140px
+}
+#immi {
+  position:Absolute;
+  top:110px;
+  left:800ppx;
+  
 }
