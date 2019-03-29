@@ -9,12 +9,13 @@ body {
   font-size: 18px;
   margin: 0;
   color: #444;
-  background-image: url="https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg" 
+  background-image: url("http://bdadam.com/static/article-assets/gimp-background-change/food_blue.png") !important;
 }
 
 h1 {
   font-family: "Merriweather", serif;
   font-size: 32px;
+  color: black;
 }
 table {
   height: 40%;
@@ -29,11 +30,13 @@ table {
 th {
  border: 3px solid red;
  color: #003af9;
+ background-color:#41c7f4;
 }
 td {
  font-size: 30px; 
   border: 3px solid black;
-  color: #00e5ff;
+  color: #eef442;
+  background-color:#41c7f4;
 }
 .videonon {
   border: dotted blue;
@@ -64,4 +67,16 @@ height: 140px
 ol.ciiii {
 list-style: square;
 
+}
+p {
+color: black;
+}
+a {
+  color: green;
+}
+ol {
+color: black;
+}
+.black {
+color: black;
 }
