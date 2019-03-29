@@ -34,3 +34,8 @@ td {
   border: 3px solid black;
   color: #00e5ff;
 }
+.videonon {
+  background: blue;
+  color: red;
+  opacity: 0.25;
+}
