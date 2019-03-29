@@ -35,7 +35,7 @@ td {
   color: #00e5ff;
 }
 .videonon {
-  background: blue;
+  border: dotted blue;
   color: red;
-  opacity: 0.25;
+  width: 122px;
 }
