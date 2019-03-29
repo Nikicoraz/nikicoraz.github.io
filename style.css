@@ -39,3 +39,9 @@ td {
   color: red;
   width: 122px;
 }
+#poizz {
+  border: 3px solid red;
+  border-radius: 15px;
+  width:315px;
+
+}
