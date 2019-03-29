@@ -43,8 +43,12 @@ td {
   border: 3px solid red;
   border-radius: 15px;
   width:315px;
+  text-align: center;
 
 }
 #pp {
 visibility: hidden;
+}
+img {
+height: 140px
 }
