@@ -10,6 +10,7 @@ body {
   margin: 0;
   color: #444;
   background-image: url("http://bdadam.com/static/article-assets/gimp-background-change/food_blue.png") !important;
+  position: relative;
 }
 
 h1 {
@@ -50,6 +51,7 @@ td {
   width:315px;
   position: Absolute;
   left:800px;
+  top: 50px;
 
 }
 #pp {
@@ -60,7 +62,7 @@ height: 140px
 }
 #immi {
   position:Absolute;
-  top:110px;
+  top:160px;
   left:800px;
   height:250px !important;
 }
@@ -90,6 +92,11 @@ color: black;
   font-size: 16px;
   font-weight: 300;
   width: 600px;
+  
+}
+.cosso:hover {
+  color: lightgray;
+  
 }
 header {
   background-color: #466995;
@@ -97,4 +104,5 @@ header {
   z-index: 10;
   width: 100%;
   left: 0px;
+  top: 0px;
 }
