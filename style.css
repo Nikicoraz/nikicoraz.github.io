@@ -1,0 +1,111 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+  background-image: url("../bdadam.com/static/article-assets/gimp-background-change/food_blue.png") !important;
+  position: relative;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  color: black;
+}
+table {
+  height: 40%;
+  left: 10%;
+  overflow-y: scroll;
+  position: static;
+  width: 40%;
+  text-align: center;
+  margin: 3px;
+  color: #000000;
+}
+th {
+ border: 3px solid red;
+ color: #003af9;
+ background-color:#41c7f4;
+}
+td {
+ font-size: 30px; 
+  border: 3px solid black;
+  color: #eef442;
+  background-color:#41c7f4;
+}
+.videonon {
+  border: dotted blue;
+  color: red;
+  width: 122px;
+}
+#poizz {
+  border: 3px solid red;
+  border-radius: 15px;
+  padding:10px 10px;
+  width:315px;
+  position: Absolute;
+  left:800px;
+  top: 50px;
+  font-family: 'Pacifico', cursive;
+  font-size: 37px;
+
+}
+#pp {
+visibility: hidden;
+}
+img {
+height: 140px
+}
+#immi {
+  position:Absolute;
+  top:170px;
+  left:800px;
+  height:250px !important;
+}
+#immi:hover {
+  border: dotted yellow;
+}
+ol.ciiii {
+list-style: square;
+
+}
+p {
+color: black;
+}
+a {
+  color: green;
+}
+ol {
+color: black;
+}
+.black {
+color: black;
+}
+.cosso {
+  display: inline-block;
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  width: 33%;
+  border: 1px red;
+  
+}
+.cosso:hover {
+  color: lightgray;
+  
+}
+header {
+  background-color: #466995;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+}
