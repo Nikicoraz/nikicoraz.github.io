@@ -85,15 +85,16 @@ color: black;
 }
 .cosso {
   display: inline-block;
-  width: 600px;
   color: #FFF;
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
   font-weight: 300;
+  width: 600px;
 }
 header {
   background-color: #466995;
   position: fixed;
   z-index: 10;
   width: 100%;
+  left: 0px;
 }
